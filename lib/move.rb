@@ -17,9 +17,21 @@ end
 
 
 board = [" ", " ", " ", " ", " ", " ", " "]
+<<<<<<< HEAD
 
 def move(board_array, user_input, player="X")
  board_array[user_input] = player
+=======
+def move(board, user_input, player="X")
+
+user_input = user_input.to_i
+if (player == "X")
+  board#{user_input} << "X"
+else 
+  board#{user_input} << "Y"
+
+   
+>>>>>>> d22a1ddee9e374b86b6474c8484558d79c1a81c7
 end
 move(board, 2)
 
